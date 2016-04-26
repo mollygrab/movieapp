@@ -1,0 +1,81 @@
+.myContainer {
+  width: 90%;
+  margin: 0px auto;
+  max-width: 1000px;
+}
+
+.search-button {
+            color: white;
+            border-radius: 4px;
+            text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+            background: #813B57;
+
+        }
+
+h1{
+     font-family: 'Fjalla One', sans-serif;
+     color: white;
+     font-size: 3em;
+     padding-left: 5%;
+     padding-top: 3%;
+     padding-bottom: 3%;
+     background-color: #3C8569;
+
+}
+.my-container {
+  margin-left: 5%;
+}
+h3 {
+
+}
+p {
+  font-style: italic;
+  color: gray;
+}
+.pure-u-1-3 {
+background-color: #94C2B1;
+height: 70%;
+margin-bottom: 5%;
+}
+
+img.popcorn {
+  border-radius: 5%;
+  height: 30%;
+  width: 85%;
+  margin-left: 8%;
+}
+.pure-u-1-3 h2{
+  font-family: 'Fjalla One', sans-serif;
+  color: black;
+  margin-left: 25%;
+}
+
+.pure-u-1-3 p {
+  font-style: normal;
+  color: black;
+  margin: 5%;
+}
+
+p.cred {
+  margin-left: 50%;
+  font-style: italic;
+  color: white;
+  padding-bottom: 7%;
+}
+
+.movie-result {
+  padding-bottom: 3%;
+  width: 80%;
+  border-bottom-style: solid;
+  border-bottom-width: 5px;
+  border-bottom-color: #813B57;
+}
+.IMDbLink {
+  margin-top: 10%;
+  font-size: 120%;
+  color: #813B57;
+  text-decoration: none;
+}
+.IMDbLink:hover {
+  text-decoration: underline;
+}
