@@ -1,3 +1,8 @@
+body {
+  margin-left: 5%;
+  margin-right: 5%;
+
+}
 .myContainer {
   width: 90%;
   margin: 0px auto;
@@ -11,15 +16,28 @@
             background: #813B57;
 
         }
+header {
+  background-color: #3C8569;
+}
 
+img.logo {
+  width: 100px;
+  float: left;
+  padding: 2%;
+
+}
 h1{
+    position: relative;
      font-family: 'Fjalla One', sans-serif;
      color: white;
      font-size: 3em;
      padding-left: 5%;
      padding-top: 3%;
      padding-bottom: 3%;
-     background-color: #3C8569;
+
+
+
+
 
 }
 .my-container {
@@ -31,6 +49,7 @@ h3 {
 p {
   font-style: italic;
   color: gray;
+  font-family: 'Marmelad', sans-serif;
 }
 .pure-u-1-3 {
 background-color: #94C2B1;
@@ -47,7 +66,7 @@ img.popcorn {
 .pure-u-1-3 h2{
   font-family: 'Fjalla One', sans-serif;
   color: black;
-  margin-left: 25%;
+  margin-left: 20%;
 }
 
 .pure-u-1-3 p {
@@ -57,7 +76,8 @@ img.popcorn {
 }
 
 p.cred {
-  margin-left: 50%;
+  font-size: 50%;
+  margin-left: 35%;
   font-style: italic;
   color: white;
   padding-bottom: 7%;
@@ -70,12 +90,24 @@ p.cred {
   border-bottom-width: 5px;
   border-bottom-color: #813B57;
 }
-.IMDbLink {
-  margin-top: 10%;
-  font-size: 120%;
-  color: #813B57;
-  text-decoration: none;
+.movie-result h3 {
+  font-size: 1.5em;
 }
+.IMDbLink {
+  padding: 1.5%;
+  font-size: 100%;
+  color: white;
+  background-color: #813B57;
+  margin-top: 10%;
+  border-radius: 5%;
+  text-decoration: none;
+  font-style: normal;
+}
+
+
 .IMDbLink:hover {
   text-decoration: underline;
+}
+.movie-result img {
+  margin-top: 5%;
 }
