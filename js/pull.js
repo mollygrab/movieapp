@@ -44,7 +44,7 @@ function runSearch(userText){
       $('.results-area').append('<p>' + movie.Year + '</p>');
       $('.results-area').append('<p> <a class="IMDbLink" href="http://www.imdb.com/title/' + movie.imdbID + '/">View IMDb Page</a></p>');
       $('.results-area').append('<br>');
-      $('.results-area').append('<img src="' + movie.Poster + '"alt="poster">');
+      $('.results-area').append('<img src="' + movie.Poster + '" alt="poster">');
       $('.results-area').append('</div>');
 
     });
